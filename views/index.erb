@@ -1,0 +1,12 @@
+<h1>Recent prices for monitor DELL U2515H</h1>
+
+<table>
+  <th>Date</th>
+  <th>Price</th>
+  <% @prices.each do |price| %>
+    <tr>
+      <td><%= price.date %></td>
+      <td><%= price.total %></td>
+    </tr>
+  <% end %>
+</table>

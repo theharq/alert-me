@@ -1,0 +1,6 @@
+development:
+  clients:
+    default:
+      database: alert_me
+      hosts:
+        - localhost:27017
