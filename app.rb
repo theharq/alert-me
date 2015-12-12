@@ -7,7 +7,7 @@ Bundler.require(:default)
 require './models/price'
 
 configure do
-  Mongoid.load!('./database.yml', :development)
+  Mongoid.load!('./database.yml')
 end
 
 get '/' do
